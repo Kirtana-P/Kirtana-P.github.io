@@ -1,11 +1,408 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      <h1>Kirtana Pisapati</h1>
-    </title>
-  </head>
-  <body>
-    This page will have my resume
-  </body>
+<head>
+<title>LaTeX4Web 1.4 OUTPUT</title>
+<style type="text/css">
+<!--
+ body {color: black;  background-color:#FFCC99;  }
+ div.p { margin-top: 7pt;}
+ td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+ td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+ td div.norm {line-height:normal;}
+ td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+ td.sqrt {border-top:2 solid black;
+          border-left:2 solid black;
+          border-bottom:none;
+          border-right:none;}
+ table.sqrt {border-top:2 solid black;
+             border-left:2 solid black;
+             border-bottom:none;
+             border-right:none;}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-latin-1"/>
+</head>
+<body>
+
+
+
+
+
+
+\documentclass[a4paper,11pt]article
+\usepackagelatexsym
+\usepackagexcolor
+\usepackagefloat
+\usepackageragged2e
+\usepackage[empty]fullpage
+\usepackagewrapfig
+\usepackagelipsum
+\usepackagetabularx
+\usepackagetitlesec
+\usepackagegeometry
+\usepackagemarvosym
+\usepackageverbatim
+\usepackageenumitem
+\usepackage[hidelinks]hyperref
+\usepackagefancyhdr
+\usepackagemulticol
+\usepackagegraphicx
+\usepackagecfr-lm
+\usepackage[T1]fontenc
+\setlength<font face=symbol>m</font>lticolsep0pt 
+\pagestylefancy
+\fancyhf \fancyfoot
+<font face=symbol>Â</font>newcommand\headrulewidth0pt
+<font face=symbol>Â</font>newcommand\footrulewidth0pt
+ <font face=symbol>³</font> ometryleft=0.6cm, top=0.5cm, right=0.6cm, bottom=0.5cm
+\usepackage[most]tcolorbox
+\tcbset
+	frame code=
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth<font face=symbol>Â</font>lax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+
+
+\urlstylesame
+
+<font face=symbol>®</font>ggedright
+\setlength\tabcolsep0in
+
+\titleformat\section
+  \vspace-4pt\scshape<font face=symbol>®</font>ggedright<font size="+1">
+</font>0em[\colorblack\titlerule \vspace-7pt]
+
+\newcommand<font face=symbol>Â</font>sumeItem[2]
+  
+<li>
+    \textbf#1:\hspace0.5mm#2 \vspace-0.5mm
+  
+
+
+\newcommand<font face=symbol>Â</font>sumePOR[3]
+\vspace0.5mm
+<li>
+    \begintabular*0.97\textwidth[t]l@\extracolsep\fillr
+        \textbf#1,\hspace0.3mm#2 & \textit<font size="-1">#3</font> 
+    \endtabular*
+    \vspace-2mm
+
+
+\newcommand<font face=symbol>Â</font>sumeSubheading[4]
+\vspace0.5mm
+<li>
+    \begintabular*0.98\textwidth[t]l@\extracolsep\fillr
+        \textbf#1 & \textit\footnotesize#4 <br>
+
+        \textit\footnotesize#3 &  \footnotesize#2<br>
+
+    \endtabular*
+    \vspace-2.4mm
+
+
+\newcommand<font face=symbol>Â</font>sumeProject[4]
+\vspace0.5mm
+<li>
+    \begintabular*0.98\textwidth[t]l@\extracolsep\fillr
+        \textbf#1 & \textit\footnotesize#3 <br>
+
+        \footnotesize\textit#2 & \footnotesize#4
+    \endtabular*
+    \vspace-2.4mm
+
+
+\newcommand<font face=symbol>Â</font>sumeSubItem[2]<font face=symbol>Â</font>sumeItem#1#2\vspace-4pt
+
+<font face=symbol>Â</font>newcommand\labelitemi\vcenter\hbox\tiny<font face=symbol>·</font>
+
+\newcommand<font face=symbol>Â</font>sumeSubHeadingListStart<ul>[leftmargin=*,labelsep=0mm]
+\newcommand<font face=symbol>Â</font>sumeHeadingSkillStart<ul>[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]
+\newcommand<font face=symbol>Â</font>sumeItemListStart\beginjustify<ul>[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]<font size="-1"></font>
+
+\newcommand<font face=symbol>Â</font>sumeSubHeadingListEnd</ul>\vspace2mm
+\newcommand<font face=symbol>Â</font>sumeHeadingSkillEnd</ul>\vspace-2mm
+\newcommand<font face=symbol>Â</font>sumeItemListEnd</ul>\endjustify\vspace-2mm
+\newcommand\cvsection[1]\vspace2mm
+\begintcolorbox
+    \textbf<font size="+1"> #1</font>
+\endtcolorbox
+    \vspace-4mm
+
+
+\newcolumntypeL><font face=symbol>®</font>ggedright\arraybackslashX\newcolumntypeR><font face=symbol>®</font>ggedleft\arraybackslashX\newcolumntypeC>\centering\arraybackslashX
+\newcommand\namePisapati Kirtana \newcommand\courseBachelor of Technology \newcommand\roll2010080054 \newcommand\phone6309716364 \newcommand\emailareachkirtana@gmail.com \newcommand\emailb2010080054@klh.edu.in \newcommand\githubKirtana-P \newcommand\linkedinkirtana-pisapati/ 
+
+
+
+\begindocument
+\fontfamilycmr\selectfont
+<br>box2.35cm
+ <font face=symbol>Î</font> cludegraphics[width=2cm,clip]passport_pic.jpg
+
+<br>box\dimexpr\linewidth-2.8cm<font face=symbol>Â</font>lax
+\begintabularx\linewidthL r
+  \textbf\LARGE \name & +91-\phone<br>
+
+  
+  \course &  \hrefmailto:\emailb\emaila&
+   in Artificial Intelligence and Data Science (Specialization in 
+Perception and Language Technologies) &  \hrefmailto:\emailb\emailb &  
+  KL University, Hyderabad, Telangana & \hrefhttps://github.com/\githubhttps://github.com/Kirtana-P <br>
+ &  \hrefhttps://www.linkedin.com/in/\linkedin/https://www.linkedin.com/in/kirtana-pisapati/
+\endtabularx
+
+
+\vspace-2mm
+<p><a name="toc.1"><h1>1&nbsp;\textbfSummary</h1>
+I am Kirtana Pisapati, an enthusiastic engineering fresher pursuing my engineering degree in Artificial Intelligence and Data Science.
+Looking to gain much exposure in the field of AI and would like to see my future in it.
+A student with a record of academic success.
+A hardworking person who never gives up in any situation.
+Excellent teamwork, interpersonal, and communication skills.
+Open to pursuing higher education in the field of AI. Would like to gain experience as an intern in the field of AI.
+<p><a name="toc.2"><h1>2&nbsp;\textbfEducation</h1>
+\setlength\tabcolsep5pt <font size="-1">\begintabularx
+\dimexpr\textwidth-2mm<font face=symbol>Â</font>lax|c|C|c|c|c|
+  \hline
+  \textbfDegree  & \textbfInstitute & \textbfBoard / University & \textbfCGPA/Percentage & \textbfYear<br>
+
+  \hline
+  B.Tech AI and DS & KL University, Hyderabad & KL University & 9.61 (Till 5th Sem) & 2020-2024<br>
+
+ 
+  \hline
+  Intermediate & Sri Chaitanya Junior College & TSBIE & 92.2\% & 2018-2020 <br>
+
+  \hline
+  10th Standard & AMS P.Obul Reddy Public School & CBSE & 88.6\% & 2018 <br>
+
+  \hline
+\endtabularx
+\vspace-1mm
+
+<p><a name="toc.3"><h1>3&nbsp;\textbfExperience</h1>
+  <font face=symbol>Â</font>sumeSubHeadingListStart
+
+    <font face=symbol>Â</font>sumeSubheading
+      AICTE-EduSkillsVirtual Internship
+      InternMarch 2022 - May 2022
+      <font face=symbol>Â</font>sumeItemListStart
+        
+<li> Completed virtual internship in Cyber Security and got certified
+      <font face=symbol>Â</font>sumeItemListEnd
+    
+    \vspace-1mm
+    <font face=symbol>Â</font>sumeSubheading
+      InternshalaWork from home
+      InternJan 2022 - Jan 2022(Two weeks)
+     <font face=symbol>Â</font>sumeItemListStart
+    
+<li> Curriculum Creation for Rural Kids - Volunteer For India (Openings: 4000) Internship
+    <font face=symbol>Â</font>sumeItemListEnd
+    
+    
+    
+    
+  
+      
+  <font face=symbol>Â</font>sumeSubHeadingListEnd
+\vspace-6.5mm
+<p><a name="toc.4"><h1>4&nbsp;\textbfProjects</h1>
+<font face=symbol>Â</font>sumeSubHeadingListStart
+    
+    <font face=symbol>Â</font>sumeProject
+      Calorie and Nutritional Value Counter       Django       Aug 2022 - Nov 2022 
+      <font face=symbol>Â</font>sumeItemListStart
+        
+<li> The project is a Django-based website hosted on the Heroku cloud platform.
+        
+<li>It takes information about the food the user consumes as
+input provides the calories and nutritional values it contains and suggests exercises to burn the calories.
+        
+<li>The data used is Nutrition API from the API Ninjas website.
+      <font face=symbol>Â</font>sumeItemListEnd
+    
+     \vspace-1mm
+     
+    <font face=symbol>Â</font>sumeProject
+      Blood Bank Management System       Django,HTML,CSS,Javascript       Oct 2021 - Mar 2022 
+      <font face=symbol>Â</font>sumeItemListStart
+        
+<li> The application developed as part of this project is a non-profit web-based Mobile Rural Health Service.
+        
+<li> Many mobile health services
+existing today are confined to urban areas leaving rural people without any tech support. We are particularly focused on providing blood, plasma
+and Hospital information based on the locality of the patient.
+      <font face=symbol>Â</font>sumeItemListEnd
+      
+    \vspace-1mm
+    
+   <font face=symbol>Â</font>sumeProject
+      Image Cartoonify       Machine learning,Deep learning,Python       Jul 2021 - Sep 2021       
+      <font face=symbol>Â</font>sumeItemListStart
+        
+<li> This project converts any human face into a cartoon character. Image cartoonify is created using GAN(generative adversarial network) and CNN
+(convolutional neural network) which are the most popular libraries used in Deep Learning.
+        
+<li> We fine-tuned this with a pre-trained model
+called ‘StyleGan’which is trained on many people’s faces.
+        
+<li>This can generate people faces which never existed in this world.
+      <font face=symbol>Â</font>sumeItemListEnd
+    
+
+<font face=symbol>Â</font>sumeSubHeadingListEnd
+\vspace-7.5mm
+
+
+<p><a name="toc.5"><h1>5&nbsp;\textbfGlobal Certifications</h1>
+    <font face=symbol>Â</font>sumeItemListStart
+        
+<li> \hrefhttps://www.credential.net/4936bc1a-374d-4945-b1f0-a492514bf6ce\textbf TensorFlow Developer(16 Feb 2023 - 16 Feb 2026)
+        TensorFlow         
+<li> \hrefhttps://certificates.automationanywhere.com/0d4c8e4d-af7d-4e9e-8dbc-a331324e79d2\textbf Advanced RPA Professional(29 Jan 2023 - 29 Jan 2025)
+        Automation Anywhere     <font face=symbol>Â</font>sumeItemListEnd
+\vspace-4mm
+<p><a name="toc.6"><h1>6&nbsp;\textbfOther Certifications</h1>
+    <font face=symbol>Â</font>sumeItemListStart
+        
+<li> \hrefhttps://www.credly.com/badges/52fadc98-e9d5-4e47-be06-0ab21ad0090f/linked_in\textbf AWS Academy Cloud Foundations
+        Amazon Web Services Training and Certification         
+<li> \hrefhttps://www.credly.com/badges/862feae9-49c8-4aa6-be34-0a71ce8829fa/linked_in\textbf AWS Academy Machine Learning Foundations
+         Amazon Web Services Training and Certification         
+<li> \hrefhttps://courses.cognitiveclass.ai/certificates/965ad16d3ccd4f4eabbc217c91bffc21\textbf Data Visualization with Python
+        IBM         
+<li> \hrefhttps://courses.cognitiveclass.ai/certificates/64a96a3ca6c943abbca6b2c970415b84\textbf Python 101 for Data Science
+        IBM         
+<li> \hrefhttps://courses.cognitiveclass.ai/certificates/7c56744baf3b4181ba193de2affd906c\textbf SQL and Relational Databases 101
+        IBM     <font face=symbol>Â</font>sumeItemListEnd
+\vspace-4mm
+
+<p><a name="toc.7"><h1>7&nbsp;\textbfTechnical Skills</h1>
+\setlength\tabcolsep5pt <font size="-1">\begintabularx
+\dimexpr\textwidth-2mm<font face=symbol>Â</font>lax|c|C|c|c|c|
+  \hline
+  \textbfDomain & \textbfSkills <br>
+
+  \hline
+  Web Development & Html, CSS, React <br>
+
+ 
+  \hline
+  Frameworks & Django, Tensorflow, Pytorch, OpenCV, Hadoop, MongoDB <br>
+
+  \hline
+  Programming & Python, C, C++, Java, R, SQL, Javascript <br>
+
+  \hline
+  Artificial Intelligence & Machine Learning, Deep Learning, Signal Processing, Speech Processing, Computer Vision, Natural Language Processing<br>
+
+  \hline
+  Data Science & Data Management, Data Warehousing and Data Mining, Data Science Visualisation, Big Data Analytics, Probability and Statistics for Data Science <br>
+
+  \hline
+  Other  & Operating Systems, Cloud Computing, Object Oriented Programming Systems, Data Structures Design, Enterprise Software
+Development, Automata Theory and Compiler Design, Software Engineering, Mathematical Programming, Digital Logic and Processors, Computer Networks and
+Security<br>
+
+  \hline
+\endtabularx
+\vspace-0.05mm
+ 
+ <font face=symbol>Â</font>sumeHeadingSkillEnd
+
+\vspace-0.5mm
+
+<p><a name="toc.8"><h1>8&nbsp;\textbfPersonal Skills</h1>
+\beginrSection 
+
+<li> Effective communication
+
+<li> Time Management
+
+<li> Critical Thinking
+
+<li> Self-Motivation
+
+<li> Active listening
+
+<li> Problem-solving
+
+<li> Flexibility
+
+<li> Responsibility
+
+<li> Adaptability
+
+<li> Leadership
+
+<li> Team management
+\endrSection
+\vspace-0.5mm
+
+<p><a name="toc.9"><h1>9&nbsp;\textbfLanguages Known</h1>
+\beginrSection 
+
+<li> English
+
+<li> Telugu
+
+<li> Hindi
+
+<li> French
+
+\endrSection
+\vspace-0.5mm
+
+<p><a name="toc.10"><h1>10&nbsp;\textbfAwards</h1>
+
+<li> Award for securing 1st rank in academics in the department of AI and DS, KL University, Hyderabad, 2020-2022
+\vspace-0.5mm
+
+\vspace-1.5mm
+<p><a name="toc.11"><h1>11&nbsp;\textbfPositions of Responsibility</h1>
+\vspace-0.4mm
+<font face=symbol>Â</font>sumeSubHeadingListStart
+  <font face=symbol>Â</font>sumePORSocial Media Outreach Lead     Codechef KLUH Hyderabad Chapter     Sep 2021 - May 2022 <font face=symbol>Â</font>sumeSubHeadingListEnd
+\vspace-4mm
+
+<p><a name="toc.12"><h1>12&nbsp;\textbfExtra Curricular Activities</h1>
+\beginrSection 
+
+<li> Code Mentoring- KL University Hyderabad
+
+<li> Cooking
+
+<li> Art
+
+<li> Listening to music
+
+\endrSection
+\vspace-0.5mm
+
+\enddocument
+
+<hr>
+<p><h1>Table Of Contents</h1>
+<p><a href="#toc.1"><h1>1&nbsp;\textbfSummary</h1></a>
+<p><a href="#toc.2"><h1>2&nbsp;\textbfEducation</h1></a>
+<p><a href="#toc.3"><h1>3&nbsp;\textbfExperience</h1></a>
+<p><a href="#toc.4"><h1>4&nbsp;\textbfProjects</h1></a>
+<p><a href="#toc.5"><h1>5&nbsp;\textbfGlobal Certifications</h1></a>
+<p><a href="#toc.6"><h1>6&nbsp;\textbfOther Certifications</h1></a>
+<p><a href="#toc.7"><h1>7&nbsp;\textbfTechnical Skills</h1></a>
+<p><a href="#toc.8"><h1>8&nbsp;\textbfPersonal Skills</h1></a>
+<p><a href="#toc.9"><h1>9&nbsp;\textbfLanguages Known</h1></a>
+<p><a href="#toc.10"><h1>10&nbsp;\textbfAwards</h1></a>
+<p><a href="#toc.11"><h1>11&nbsp;\textbfPositions of Responsibility</h1></a>
+<p><a href="#toc.12"><h1>12&nbsp;\textbfExtra Curricular Activities</h1></a>
+</body>
 </html>
+
